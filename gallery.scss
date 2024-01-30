@@ -1,0 +1,546 @@
+@import "nullstyle.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+@import "header.scss";
+
+@import "footer.scss";
+
+.splide__slide {
+    min-height: 500px;
+    background-color: red;
+}
+
+
+
+.one {
+    width: 100%;
+    height: auto;
+    background-image: url("img/neonback.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    .pic1 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url("img/renders/Nitrobday.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic2 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Roxymood.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic3 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Roxyengage1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic4 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Freddyroom.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic5 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Montyroom.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic6 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Roxyroom.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic7 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Roxyvector.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic8 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/RoxyandMangle.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic9 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Roxeddy.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic10 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Roxymom.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic11 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Roxywest.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .pic12 {
+        width: 90%;
+        height: 410px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D862E6;
+        background: url(img/renders/Roxycomic.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 40px 20px rgba(216, 98, 230, 0.25);
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.preloader {
+    background: #202020 url(img/loading.gif) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 200;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.preloader--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bigpic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic1 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic2 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic3 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic4 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic5 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic6 img {
+    position: fixed;
+    width: 70%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic7 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic8 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic9 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic10 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.bigpic11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -101;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0;
+}
+
+.bigpic11 img {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0 0 30px black);
+}
+
+.scale {
+    z-index: 101;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.hover {    
+    background-color: rgba(0, 0, 0, 0.30);
+    border: 2px solid #D862E6;
+    border-radius: 20px;    
+    box-shadow: 0px 0px 10px 5px rgba(216, 98, 230, 0.25);
+}

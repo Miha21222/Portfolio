@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"
+    integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="preloader"></div>
+
+    <div class="header">
+        <a href="index.html" class="image"></a>
+        <div class="text">
+            <a href="index.html" class="item">HOME</a>
+            <a href="gallery.html" class="item">GALLERY</a>
+            <a href="about.html" class="item" >ABOUT</a>
+            <a href="contact.html" class="item" id="contact">CONTACT</a>
+            <a href="pricing.html" class="item">PRICING</a>
+        </div>
+        <div class="links">
+            <a href="https://discordapp.com/users/416615432506834945" target="_blank" class="pics1"></a>
+            <a href="https://t.me/philosophical_kompot" target="_blank" class="pics2"></a>
+            <a href="https://www.deviantart.com/kompotus18" target="_blank" class="pics3"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="window">
+            <div class="text1">
+                <div class="image1"></div>
+                Get in contact with me to get yourself a beautiful render you desire!
+            </div>
+            <div class="forms">
+                Type your info here!
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="surname" placeholder="Surname">
+                <input type="email" id="email" placeholder="Email">
+                <textarea id="message" placeholder="Message"></textarea>
+                <button onclick="send()" id="send">SEND</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="wrapf">
+            <ul class="list" id="first_list">
+                <li>CONTACT</li>
+                <li>kompotus@gmail.com</li>
+                <li><a href="https://discordapp.com/users/416615432506834945"
+                        target="_blank">discordapp.com/users/416615432506834945</a></li>
+                <li><a href="https://t.me/philosophical_kompot" target="_blank">https://t.me/philosophical_kompot</a>
+                </li>
+                <li>+380950088055</li>
+            </ul>
+            <ul class="list" id="second_list">
+                <li><a href="index.html">MENU</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="pricing.html">PRICING</a></li>
+            </ul>
+            <div class="links" id="bottom_links">
+                <a href="https://discordapp.com/users/416615432506834945" target="_blank" class="pics1"></a>
+                <a href="https://t.me/philosophical_kompot" target="_blank" class="pics2"></a>
+                <a href="https://www.deviantart.com/kompotus18" target="_blank" class="pics3"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+</body>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("AoNMAVG3_-cb-02Rz");
+   })();
+</script>
+<script src="contact.js"></script>
+
+</html>
